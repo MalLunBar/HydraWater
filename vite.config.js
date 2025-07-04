@@ -6,21 +6,6 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss({
-      content: ['./src/**/*.{js,jsx,ts,tsx}'],
-      theme: {
-        extend: {
-          colors: {
-            primary: '#1DA1F2',
-            secondary: '#14171A',
-          },
-          fontFamily: {
-            sans: ['Poppins', 'sans-serif'],
-            heading: ['Bebas-Neue', 'serif'],
-            special: ['Anton', 'sans-serif'],
-          },
-        },
-      },
-    }),
-  ],
+    tailwindcss()
+  ]
 })
