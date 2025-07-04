@@ -1,5 +1,16 @@
+
+import Header from './sections/header'
+import MainSection from './sections/MainSection'
+import Footer from './sections/Footer'
+
 export const App = () => {
   return (
-    <h1>React Boilerplate</h1>
+    <>
+      <Header />
+      <MainSection />
+      <Footer />
+
+    </>
+
   )
 }
