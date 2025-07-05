@@ -1,5 +1,5 @@
 
-import Header from './sections/header'
+import Header from './sections/Header'
 import MainSection from './sections/MainSection'
 import Footer from './sections/Footer'
 
