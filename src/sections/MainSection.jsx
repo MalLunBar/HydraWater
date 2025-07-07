@@ -1,9 +1,11 @@
 import Hero from './Hero'
+import Products from './Products'
 
 const MainSection = () => {
   return (
-    <main className="">
+    <main className="max-h-full">
       <Hero />
+      <Products />
     </main>
   )
 }
